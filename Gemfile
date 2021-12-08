@@ -11,7 +11,6 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
-gem 'httparty', '~> 0.20.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
@@ -21,6 +20,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'annotate'
+  gem 'httparty', '~> 0.20.0'
   gem 'pry'
   gem 'rubocop'
 end
