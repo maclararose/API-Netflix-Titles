@@ -62,4 +62,4 @@ And Done! You can see working in your machine in the address: 0.0.0.0:3000/v1
 
 # License :page_facing_up:
 
-This project is under license [[MIT](https://github.com/maclararose/API-Space/blob/main/LICENSE)] :round_pushpin:.
+This project is under license [[MIT](https://github.com/maclararose/API-Netflix-Titles/blob/main/LICENSE)] :round_pushpin:.
