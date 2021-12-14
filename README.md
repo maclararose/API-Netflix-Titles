@@ -1,24 +1,65 @@
-# README
+# API-Space-Flight-News
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a challenge by [Mobile2you](https://www.mobile2you.com.br/pt/)
 
-Things you may want to cover:
+The project has been completed: unfinished
 
-* Ruby version
+It is the creation of an API for listing movie title data, filtering by year, gender and checking if there is no duplication.
 
-* System dependencies
+# Starting :rocket:
 
-* Configuration
+These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes.
 
-* Database creation
+# Requisites :page_with_curl:
 
-* Database initialization
+- Git;
+- Text editor;
+- Ruby 2.7.2;
+- Rails 6;
+- Postgresql;
 
-* How to run the test suite
+# Installation :wrench:
 
-* Services (job queues, cache servers, search engines, etc.)
+The first step is to download the repository in your machine whit git:
 
-* Deployment instructions
+```bash
+git init
 
-* ...
+git clone https://github.com/maclararose/API-Netflix-Titles.git
+
+cd API-Netflix-Titles
+
+```
+
+If you use __Visual Studio Code__, to open the repository use in terminal:
+
+`code .`
+
+In terminal type:
+
+```bash
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails s
+```
+
+And Done! You can see working in your machine in the address: 0.0.0.0:3000/v1
+
+# Done with :hammer: :
+
+- Ruby 2.7.2;
+- Rails 6;
+- Postgresql;
+
+# Version :pushpin:
+
+1.0.1
+
+# Author :black_nib:
+
+- __Maria Clara__ - Code and Documentation - [[LinkedIn](https://www.linkedin.com/in/mariaclarab/)]
+
+# License :page_facing_up:
+
+This project is under license [[MIT](https://github.com/maclararose/API-Space/blob/main/LICENSE)] :round_pushpin:.

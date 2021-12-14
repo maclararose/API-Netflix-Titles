@@ -6,6 +6,7 @@
 #  country      :string
 #  description  :string
 #  genre        :string
+#  id_csv       :string
 #  published_at :string
 #  title        :string
 #  year         :string

@@ -1,6 +1,7 @@
 class CreateNetflixTitles < ActiveRecord::Migration[6.1]
   def change
     create_table :netflix_titles do |t|
+      t.string :id_csv
       t.string :title
       t.string :genre
       t.string :year
