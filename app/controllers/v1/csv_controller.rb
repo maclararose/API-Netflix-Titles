@@ -1,4 +1,6 @@
 # frozen_string_literal: true
 
-class V1::CsvController < ApplicationController
+module V1
+  class CsvController < ApplicationController
+  end
 end

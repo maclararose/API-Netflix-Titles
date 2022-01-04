@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module V1
+  # Modulate for API and CRUD
   class NetflixTitleController < ApplicationController
     def index
       netflix_titles = NetflixTitle.all

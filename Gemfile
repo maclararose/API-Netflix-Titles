@@ -22,7 +22,7 @@ group :development, :test do
   gem 'annotate'
   gem 'httparty', '~> 0.20.0'
   gem 'pry'
-  gem 'rubocop'
+  gem 'rubocop', require: false
 end
 
 group :development do
