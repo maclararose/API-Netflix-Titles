@@ -1,4 +1,4 @@
-# API-Space-Flight-News
+# API-Netflix-Titles
 
 This is a challenge by [Mobile2you](https://www.mobile2you.com.br/pt/)
 
